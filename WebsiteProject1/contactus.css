@@ -1,0 +1,96 @@
+
+body{
+    color:white;
+    font-family: Arial, Halvetica,sans-serif;
+    display:block;
+    background: url("background.jpg");
+}
+
+h2 {
+    text-align: center;
+}
+
+fieldset {
+    display: block;
+    border: none;
+}
+
+
+fieldset {
+    width: 75%;
+    margin: 0 auto
+}
+
+label {
+    float: left;
+    width: 20em;
+    text-align: right;
+}
+
+input,
+select,
+textarea {
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.questions {margin-left:-255px}
+
+input:required {
+    border: 2px solid red;
+}
+
+/* to make it work, add class = “optional” to the
+target html elements */
+
+.optional {
+    border: 2px solid red;
+}
+
+input[type="submit"] {
+    width: 7em;
+    background-color: red;
+    color: white;
+    margin-left: 4em
+}
+
+ section h2 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.register {
+    border: none;
+}
+
+aside {
+    border-left: 1px solid green
+}
+
+
+.navbar {
+  background-color: black;
+  overflow: hidden;
+    margin:10px;
+    padding:10px
+}
+
+.navbar a {
+  float: center;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: dimgrey;
+  color: white;
+}
