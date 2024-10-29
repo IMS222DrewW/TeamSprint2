@@ -1,0 +1,89 @@
+/*Nav Bar*/
+body {background-color: black;
+    font-family: Arial, Halvetica,sans-serif;
+}
+.navbar {
+  background-color: black;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: dimgrey;
+  color: white;
+}
+
+/*Text Align*/
+
+.header, .subheader, p, li {text-align:center}
+
+/*Wrapper*/
+
+.wrapper {background-color:white;
+    width:1500px; height: 100%px;
+    margin:0 auto;
+    border:2px solid black}
+
+/*Sidebar*/
+
+aside {background-color:#282756; width:80px; height:1692px; float:left}
+
+aside p {color:#282756}
+
+aside {margin-right:10px}
+
+/*Font Size*/
+h1 {font-size: 2.25em}
+
+
+h2 {font-size: 1.35em}
+
+/*List Style*/
+
+li {text-decoration-color: none;}
+
+/*Text Color*/
+
+.header, .subheader, p, a {color:white}
+
+.wrapper {background-image: url("homepageimages/sky.jpg")}
+
+
+.navbar {
+  background-color: black;
+  overflow: hidden;
+    margin:10px;
+    padding:10px
+}
+
+.navbar a {
+  float: center;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: dimgrey;
+  color: white;
+}
