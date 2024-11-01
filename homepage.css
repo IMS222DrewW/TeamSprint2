@@ -1,10 +1,29 @@
-/*Nav Bar*/
-body {background-color: black;
-    font-family: Arial, Halvetica,sans-serif;
+/*Background Image*/
+
+.wrapper {background-image: url("homepageimages/flowerspixelart.jpg")}
+
+/*Roboto Font*/
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
+
+/*Wrapper*/
+
+.wrapper {background-color:white;
+    width:100%; height: 100%px;
+    margin:0 auto;
+    border:2px solid black}
+
+/*Nav Bar*/
+
 .navbar {
   background-color: black;
   overflow: hidden;
+    margin:10px;
+    padding:10px
 }
 
 .navbar a {
@@ -21,69 +40,41 @@ body {background-color: black;
   color: black;
 }
 
+
 .navbar a.active {
   background-color: dimgrey;
   color: white;
 }
 
-/*Text Align*/
+/*Text Adjustments*/
 
-.header, .subheader, p, li {text-align:center}
-
-/*Wrapper*/
-
-.wrapper {background-color:white;
-    width:1500px; height: 100%px;
-    margin:0 auto;
-    border:2px solid black}
-
-/*Sidebar*/
-
-aside {background-color:#282756; width:80px; height:1692px; float:left}
-
-aside p {color:#282756}
-
-aside {margin-right:10px}
-
-/*Font Size*/
 h1 {font-size: 2.25em}
-
 
 h2 {font-size: 1.35em}
 
-/*List Style*/
-
-li {text-decoration-color: none;}
-
-/*Text Color*/
+p {font-size:1.15em}
 
 .header, .subheader, p, a {color:white}
 
-.wrapper {background-image: url("homepageimages/sky.jpg")}
-
-
-.navbar {
-  background-color: black;
-  overflow: hidden;
-    margin:10px;
-    padding:10px
+body {
+    font-family: "Roboto", sans-serif;
 }
 
-.navbar a {
-  float: center;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+.header, .subheader, p, li {text-align:center; width:1200px; margin:auto}
+
+p {margin-top: .5em; margin-bottom:.5em}
+/*List Style*/
+
+li{list-style:none;}
+
+li a {color:#c4d4ed;
+    transition:.15s
 }
 
-.navbar a:hover {
-  background-color: whitesmoke;
-  color: black;
-}
+li a:hover {color:deepskyblue}
 
-.navbar a.active {
-  background-color: dimgrey;
-  color: white;
-}
+.bottomstore {margin-bottom:.5em;}
+
+/*Slider Margin*/
+
+.slider {margin-top:1em;margin-bottom:1em}
